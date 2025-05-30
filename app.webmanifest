@@ -1,0 +1,9 @@
+{
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "name": "CodepadMasters, notepad app",
+  "short_name": "CodepadMasters",
+  "display": "standalone",
+  "theme_color": "#55887c"
+}
