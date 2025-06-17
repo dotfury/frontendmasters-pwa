@@ -42,3 +42,5 @@ function renderNotes() {
         ul.appendChild(li);
     })
 }
+
+navigator.serviceWorker.register('serviceworker.js');
