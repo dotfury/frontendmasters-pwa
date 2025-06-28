@@ -19,6 +19,20 @@ document.addEventListener("DOMContentLoaded", event => {
     document.querySelector("#btnLearn").addEventListener("click", event => {
         location.href = "https://frontendmasters.com";
     })
+
+    document.querySelector('#btnInstall').addEventListener('click', event => {
+      if (bipEvent) {
+        bipEvent.prompt();
+      } else {
+        alert('sorry, manual');
+      }
+    })
+})
+
+let bipEvent = null;
+window.addEventListener('beforeinstallprompt', event => {
+  event.preventDefault();
+  bipEvent = event;
 })
 
 // Render the notes on the DOM
