@@ -6,6 +6,21 @@
   "short_name": "CodepadMasters",
   "display": "standalone",
   "theme_color": "#55887c",
+  "description": "Best app",
+  "screenshots": [
+    {
+      "src": "screenshot.png",
+      "sizes": "",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshot.png",
+      "sizes": "",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
   "icons": [
     {
       "src": "icons/icon-512.png",
